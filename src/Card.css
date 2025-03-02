@@ -1,0 +1,52 @@
+.card {
+  width: 175px;
+  height: auto;
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.card-batch {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #fff;
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 0.5px 2px;
+}
+
+.experience-img {
+  width: 100%;
+  max-width: 100%;
+  height: fit-content;
+  image-rendering: optimizeQuality;
+  object-fit: contain;
+  border-radius: 9px;
+  margin: 5px;
+}
+
+.star-img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.gray {
+  color: #918e9b;
+  margin-left: 4px;
+}
+
+p {
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.bold {
+  font-weight: bold;
+}
